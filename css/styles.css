@@ -16,12 +16,11 @@ article {
     justify-content: center;
 }
 
-body {
-    background: aliceblue;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
-
-ul {
-    display: flex;
-    justify-content: flex-end;
+.menu li {
+    display: inline;
 }
