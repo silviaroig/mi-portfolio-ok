@@ -5,6 +5,7 @@ body {
 h1 {
     color: #777;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 article {
@@ -12,9 +13,8 @@ article {
     justify-content: center;
 }
 
-.header {
+.name {
     margin-top: 40px;
-    font-style: light
     display: flex;
     justify-content: space-between;
 }
