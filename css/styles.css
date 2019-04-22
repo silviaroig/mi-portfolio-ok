@@ -3,7 +3,7 @@ body {
 }
 
 .headercontainer {
-    margin-top: 40px;
+    padding: 40px 10px 0 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -22,7 +22,7 @@ body {
 
 .separator {
     display: flex;
-    flex: 7;
+    flex: 8;
 }
 
 nav {
@@ -42,9 +42,10 @@ nav {
 }
 
 .welcome {
-    padding: 40px 0;
+    padding: 40px 10px 10px 10px;
     display: flex;
     flex: 2;
+
 }
 
 .welcometext {
@@ -62,17 +63,27 @@ nav {
 }
 
 .projects {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.mockup1 {
-    padding-right: 10px;
-}
-
-.mockup2 {
-    padding-left: 10px;
+.mockup {
+    padding: 10px;
+    min-width: 300px;
+    flex: 33.33%;
 }
 
 img {
     max-width: 100%;
+}
+
+.toplink1 {
+    color: #414141;
+}
+.toplink2 {
+    color: #979797;
+}
+
+.link:hover {
+    text-decoration: none;
 }
