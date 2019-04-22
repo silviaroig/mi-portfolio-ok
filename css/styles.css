@@ -80,10 +80,15 @@ img {
 .toplink1 {
     color: #414141;
 }
+
 .toplink2 {
+    color: #414141;
+}
+.toplink3 {
     color: #979797;
 }
 
 .link:hover {
     text-decoration: none;
+    color: #414141;
 }
