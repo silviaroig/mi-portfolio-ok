@@ -90,6 +90,14 @@ img {
     color: #979797;
 }
 
+.toplinkbio2 {
+    color: #979797;
+}
+
+.toplinkbio3 {
+    color: #414141;
+}
+
 .link:hover {
     text-decoration: none;
     color: #414141;
@@ -104,4 +112,26 @@ img {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: 500;
+}
+
+.gaintimecasestudy {
+    padding: 40px 10px 0 10px;
+}
+
+.gaintimetext {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.capstonecasestudy {
+    padding: 40px 10px 0 10px;
+}
+
+.capstonetext {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
