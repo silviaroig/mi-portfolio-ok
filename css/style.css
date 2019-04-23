@@ -1,11 +1,14 @@
 body {
     padding: 0 40px;
+    height: 100%;
+    width: 100%;
 }
 
 .headercontainer {
     padding: 40px 10px 0 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .com {
@@ -16,39 +19,28 @@ body {
 }
 
 .name {
-    display: flex;
-    flex: 1;
     min-width: 150px;
-    padding-top: 3px;
-}
-
-.separator {
-    display: flex;
-    flex: 8;
-}
-
-nav {
-    display: flex;
-    flex: 1;
+    margin: 0;
 }
 
 .menu {
-    display: flex;
-    flex: 1;
     min-width: 150px;
+    margin: 0;
 }
 
 .item {
     display: inline-flex;
-    flex: 1;
     justify-content: flex-end;
+}
+
+.item1 {
+    margin-right: 20px;
 }
 
 .welcome {
     padding: 40px 10px 10px 10px;
     display: flex;
-    flex: 2;
-
+    /* flex: 2; */
 }
 
 .welcometext {
@@ -57,13 +49,16 @@ nav {
     font-size: 32px;
     font-weight: 500;
     display: flex;
-    flex: 2;
+    /* flex: 2; */
+    justify-content: flex-start;
+    text-align: left;
+    padding-right: 35%; 
 }
 
-.welcomeseparator {
+/* .welcomeseparator {
     display: flex;
     flex: 1;
-}
+} */
 
 .projects {
     display: flex;
