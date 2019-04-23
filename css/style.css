@@ -18,6 +18,8 @@ body {
 .name {
     display: flex;
     flex: 1;
+    min-width: 150px;
+    padding-top: 3px;
 }
 
 .separator {
