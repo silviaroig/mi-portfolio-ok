@@ -1,7 +1,5 @@
 body {
     padding: 0 40px;
-    height: 100%;
-    width: 100%;
 }
 
 .headercontainer {
@@ -39,8 +37,6 @@ body {
 
 .welcome {
     padding: 40px 10px 10px 10px;
-    display: flex;
-    /* flex: 2; */
 }
 
 .welcometext {
@@ -49,16 +45,10 @@ body {
     font-size: 32px;
     font-weight: 500;
     display: flex;
-    /* flex: 2; */
     justify-content: flex-start;
     text-align: left;
     padding-right: 35%; 
 }
-
-/* .welcomeseparator {
-    display: flex;
-    flex: 1;
-} */
 
 .projects {
     display: flex;
