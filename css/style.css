@@ -99,6 +99,10 @@ img {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding-right: 35%;
 }
 
 .gaintimecasestudy {
