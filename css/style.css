@@ -3,7 +3,8 @@ body {
 }
 
 .headercontainer {
-    padding: 40px 10px 0 10px;
+    /* padding: 40px 10px 0 10px; */
+    padding: 40px 0 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,12 +18,12 @@ body {
 }
 
 .name {
-    min-width: 150px;
+    /* min-width: 150px; */
     margin: 0;
 }
 
 .menu {
-    min-width: 150px;
+    /* min-width: 150px; */
     margin: 0;
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 .welcome {
-    padding: 40px 10px 10px 10px;
+    padding: 40px 0 10px 0;
 }
 
 .welcometext {
@@ -56,7 +57,6 @@ body {
 }
 
 .mockup {
-    padding: 10px;
     min-width: 300px;
     flex: 33.33%;
 }
@@ -88,6 +88,19 @@ img {
 .link:hover {
     text-decoration: none;
     color: #414141;
+}
+
+.end {
+    padding: 40px 0 10px 0;
+}
+
+.finaltext {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .bio {
@@ -125,4 +138,24 @@ img {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+@media (max-width: 550px) {
+    .nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 40px;
+        border-bottom: 1px solid #ADADAD;
+    }
+
+    .name {
+        margin-top: 80px;
+    }
+
+    .welcometext {
+        font-size: 22px;
+    }
+    
 }
