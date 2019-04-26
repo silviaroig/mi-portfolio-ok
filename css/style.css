@@ -1,10 +1,10 @@
-body {
+/* body {
     padding: 0 40px;
-}
+} */
 
 .headercontainer {
     /* padding: 40px 10px 0 10px; */
-    padding: 40px 0 10px 0;
+    padding: 40px 40px 10px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,7 @@ body {
 }
 
 .welcome {
-    padding: 40px 0 10px 0;
+    padding: 40px 40px 10px 40px;
 }
 
 .welcometext {
@@ -91,7 +91,7 @@ img {
 }
 
 .end {
-    padding: 40px 0 10px 0;
+    padding: 40px 40px 10px 40px;
 }
 
 .finaltext {
@@ -152,11 +152,16 @@ img {
     }
 
     .name {
-        margin-top: 80px;
+        /* margin-top: 80px; */
+        display: none;
     }
 
     .welcometext {
-        font-size: 22px;
+        font-size: 24px;
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        padding-right: 0;
     }
     
 }
