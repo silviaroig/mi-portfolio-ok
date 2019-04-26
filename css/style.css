@@ -151,6 +151,10 @@ img {
         background: white;
     }
 
+    .com {
+        font-size: 18px;
+    }
+
     .name {
         /* margin-top: 80px; */
         display: none;
@@ -161,7 +165,7 @@ img {
     }
 
     .welcometext {
-        font-size: 24px;
+        font-size: 25px;
         display: flex;
         justify-content: flex-start;
         text-align: left;
