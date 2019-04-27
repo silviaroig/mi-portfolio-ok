@@ -111,35 +111,60 @@ img {
 }
 
 .silvia {
-    width: 300px;
+    height: 350px;
     float: left;
-    margin: 0 30px 20px 0;
-}
-
-.bio {
-    padding: 40px;
-    background-color: #FEF9F0;
+    margin: 5px 30px 20px 0;
 }
 
 .biotext {
     color: #414141;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
     text-align: left;
+    padding-right: 20%; 
 }
 
 .contact {
     color: #414141;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.mylinkedin {
+    color: #888888;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.mylinkedin:hover {
+    color: #0077b5;
+}
+
+.mymedium {
+    color: #888888;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.mymedium:hover {
+    color: #292929;
+}
+
+.myemail {
+    color: #888888;
+    font-size: 20px;
+}
+
+.myemail:hover {
+    color: #292929;
 }
 
 .gaintimecasestudy {
-    padding: 40px 10px 0 10px;
+    padding: 40px 40px 0 40px;
 }
 
 .gaintimetext {
@@ -150,7 +175,7 @@ img {
 }
 
 .capstonecasestudy {
-    padding: 40px 10px 0 10px;
+    padding: 40px 40px 0 40px;
 }
 
 .capstonetext {
@@ -160,7 +185,7 @@ img {
     font-weight: 400;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     .nav {
         position: fixed;
         top: 0;
@@ -211,7 +236,7 @@ img {
 
     .contact {
         font-size: 20px;
-        margin-top: 40px;
+        /* margin-top: 40px; */
     }
     
 }
