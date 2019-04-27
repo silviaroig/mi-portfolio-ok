@@ -32,7 +32,7 @@
 }
 
 .item1 {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .welcome {
@@ -91,7 +91,9 @@ img {
 }
 
 .end {
-    padding: 40px 40px 10px 40px;
+    padding: 80px 40px 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .finaltext {
@@ -109,21 +111,31 @@ img {
 }
 
 .silvia {
-    width: 250px;
+    width: 300px;
     float: left;
     margin: 0 30px 20px 0;
 }
 
 .bio {
-    padding: 40px 40px 10px 40px;
+    padding: 40px;
+    background-color: #FEF9F0;
 }
 
 .biotext {
     color: #414141;
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 200;
     text-align: left;
+}
+
+.contact {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: left;
+    margin-top: 50px;
 }
 
 .gaintimecasestudy {
@@ -186,14 +198,20 @@ img {
 
     .silvia {
         float: none;
+        margin: 0 0 30px 0;
     }
 
     .bio {
-        padding: 40px 20px 10px 20px;
+        padding: 0 20px 10px 20px;
     }
 
     .biotext {
         font-size: 20px;
+    }
+
+    .contact {
+        font-size: 20px;
+        margin-top: 40px;
     }
     
 }
