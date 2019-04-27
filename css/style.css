@@ -17,12 +17,10 @@
 }
 
 .name {
-    /* min-width: 150px; */
     margin: 0;
 }
 
 .menu {
-    /* min-width: 150px; */
     margin: 0;
 }
 
@@ -107,15 +105,15 @@ img {
 
 .sobremi {
     display: flex;
-    height: 100%;
+    /* height: 1000px; */
 }
 
 .bio {
     padding: 0 10px 10px 40px;
 }
 
-.silvia {
-    height: 50%;
+.img-wrapper {
+    width: 100%;
     margin: 5px 20px 20px 40px;
 }
 
@@ -126,7 +124,6 @@ img {
     font-weight: 200;
     text-align: left;
     padding-right: 30%;
-    height: 50%;
 }
 
 .contact {
@@ -135,7 +132,6 @@ img {
     font-size: 18px;
     font-weight: 200;
     text-align: left;
-    margin-top: 100px;
     padding-right: 30%;
 }
 
@@ -206,7 +202,6 @@ img {
     }
 
     .name {
-        /* margin-top: 80px; */
         display: none;
     }
 
@@ -227,13 +222,17 @@ img {
     }
 
     .sobremi {
-        flex-direction: column;
+        flex: block;
+        /* flex-direction: column; */
     }
 
     .silvia {
-        float: none;
         margin: 0 0 30px 0;
     }
+
+    .img-wrapper {
+        width: 30%;
+        float: left;
 
     .bio {
         padding: 0 20px 10px 20px;
@@ -245,7 +244,40 @@ img {
 
     .contact {
         font-size: 20px;
-        /* margin-top: 40px; */
     }
     
 }
+
+
+/* ASPECT RATIO UTILS */
+
+[class*='ratio-'] {
+    display: block;
+    position: relative;
+  }
+  
+  [class*='ratio-'] > * {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .aspect-ratio-wide {
+    padding-top: 56.25%;
+  }
+  
+  .aspect-ratio-square {
+    padding-top: 100%;
+  }
+
+  .aspect-ratio-foto-silvia {
+    padding-top: 120%;
+  }
+
+  .aspect-ratio-foto-silvia img {
+    object-fit: cover;
+  }
+  
