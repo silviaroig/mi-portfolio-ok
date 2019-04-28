@@ -105,7 +105,6 @@ img {
 
 .sobremi {
     display: flex;
-    /* height: 1000px; */
 }
 
 .bio {
@@ -113,7 +112,7 @@ img {
 }
 
 .img-wrapper {
-    width: 100%;
+    min-width: 30%;
     margin: 5px 20px 20px 40px;
 }
 
@@ -222,17 +221,13 @@ img {
     }
 
     .sobremi {
-        flex: block;
-        /* flex-direction: column; */
-    }
-
-    .silvia {
-        margin: 0 0 30px 0;
+        flex-direction: column;
     }
 
     .img-wrapper {
-        width: 30%;
-        float: left;
+        margin: 0 0 30px 20px;
+        max-width: 40%;
+    }
 
     .bio {
         padding: 0 20px 10px 20px;
@@ -240,6 +235,7 @@ img {
 
     .biotext {
         font-size: 20px;
+        padding-right: 0;
     }
 
     .contact {
