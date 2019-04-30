@@ -50,7 +50,6 @@
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .mockup {
@@ -215,6 +214,17 @@ img {
     font-weight: 400;
 }
 
+@media (max-width: 1200px) {
+    .sobremi {
+        display: block;
+    }
+    .img-wrapper {
+        max-width: 30%;
+        margin: 0 40px 28px 40px;
+        float: left;
+    }
+}
+
 @media (max-width: 750px) {
     .nav {
         position: fixed;
@@ -246,6 +256,10 @@ img {
         padding-right: 0;
     }
 
+    .projects {
+        flex-direction: column;
+    }
+
     .mockup1 {
         padding: 0 20px 10px 20px;
     }
@@ -259,10 +273,12 @@ img {
     }
 
     .sobremi {
+        display: flex;
         flex-direction: column;
     }
 
     .img-wrapper {
+        float: none;
         margin: 0 0 30px 20px;
         max-width: 40%;
     }
@@ -293,23 +309,15 @@ img {
   
   [class*='ratio-'] > * {
     display: block;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
   }
-  
-  .aspect-ratio-wide {
-    padding-top: 56.25%;
-  }
-  
-  .aspect-ratio-square {
-    padding-top: 100%;
-  }
 
   .aspect-ratio-foto-silvia {
-    padding-top: 120%;
+    padding-top: 110%;
   }
 
   .aspect-ratio-foto-silvia img {
