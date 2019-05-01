@@ -176,7 +176,7 @@ img {
 }
 
 .title {
-    padding: 40px 0 20px 300px;
+    padding: 40px 15%;
     color: #414141;
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
@@ -186,8 +186,12 @@ img {
     text-align: left;
 }
 
+.userpersona {
+    padding: 0 15%;
+}
+
 .gaintimecasestudy {
-    padding: 0 300px;
+    padding: 0 15%;
 }
 
 .gaintimetext {
@@ -195,11 +199,6 @@ img {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 300;
-}
-
-.userjourney {
-    display: flex;
-    justify-content: center;
 }
 
 .capstonecasestudy {
@@ -297,6 +296,18 @@ img {
         padding-right: 0;
     }
     
+    .title {
+        padding: 30px 10%;
+    }
+
+    .userpersona {
+        padding: 0 10%;
+    }
+    
+    .gaintimecasestudy {
+        padding: 0 10%;
+    }
+
 }
 
 
