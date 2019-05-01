@@ -144,7 +144,7 @@ img {
 
 .mylinkedin {
     color: #888888;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 10px;
 }
 
@@ -154,7 +154,7 @@ img {
 
 .mymedium {
     color: #888888;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 10px;
 }
 
@@ -164,11 +164,11 @@ img {
 
 .myemail {
     color: #888888;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .myemail:hover {
-    color: #292929;
+    color: #1dbff5;
 }
 
 .presentation {
