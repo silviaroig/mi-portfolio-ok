@@ -321,6 +321,10 @@ img {
         padding-right: 0;
     }
     
+    .presentation {
+        padding: 40px 20px 0 20px;
+    }
+
     .title {
         padding: 30px 20px;
         font-size: 25px;
