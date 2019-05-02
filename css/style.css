@@ -304,8 +304,12 @@ img {
     .img-wrapper {
         float: none;
         margin: 0 0 30px 20px;
-        max-width: 70%;
+        max-width: 80%;
     }
+
+    .aspect-ratio-foto-silvia {
+        padding-top: 70%;
+      }
 
     .bio {
         padding: 0 20px 10px 20px;
@@ -341,9 +345,5 @@ img {
     .gaintimetext {
         font-size: 18px;
     }
-
-    .aspect-ratio-foto-silvia {
-        padding-top: 70%;
-      }
 
 }
