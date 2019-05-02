@@ -5,52 +5,73 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css"/>
-
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"/>
     <title>Silvia Roig Cela</title>
+    
+    <script>
+        function showOverlay(wrapperId) {
+            document.getElementById(wrapperId).classList.add('active');
+        }
+        function hideOverlay(wrapperId) {
+            document.getElementById(wrapperId).classList.remove('active');
+        }
+    </script>
 </head>
 
-    <body>
-        <header class="headercontainer">
-            <h1 class="name com"><a class="link toplink1" href="index.html">Silvia Roig Cela</a></h1>
-            <nav class="nav">
-                <ul class="menu com">
-                    <li class="item item1"><a class="link toplink2" href="index.html">Proyectos</a></li>
-                    <li class="item item2"><a class="link toplink3" href="bio.html">Sobre mí</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <main>
-            <div class="welcome">
-                <div class="welcometext">
-                    <p>¡Hola! Soy Silvia Roig, una UX/UI designer & writer de Barcelona enfocada en experiencias digitales.</p>
-                </div>
+<body>
+    <header class="headercontainer">
+        <h1 class="name com"><a class="link toplink1" href="index.html">Silvia Roig Cela</a></h1>
+        <nav class="nav">
+            <ul class="menu com">
+                <li class="item item1"><a class="link toplink2" href="index.html">Proyectos</a></li>
+                <li class="item item2"><a class="link toplink3" href="bio.html">Sobre mí</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="welcome">
+            <div class="welcometext">
+                <p>¡Hola! Soy Silvia Roig, una UX/UI designer & writer de Barcelona enfocada en experiencias digitales.</p>
             </div>
-            <div class="projects">
-                <article class="mockup mockup1">
-                    <a href="proyecto1.html">
-                        <img class="gaintime" src="img/mockup.png" onmouseover="this.src='img/mockup_hover.png'" onmouseout="this.src='img/mockup.png'" ontouchstart="this.src='img/mockup_hover_mob.png'" ontouchend="this.src='img/mockup.png'"/>
-                    </a>
-                </article>
-                <article class="mockup mockup2">
-                    <a href="proyecto2.html">
-                        <img class="capstone" src="img/mockup2.png" onmouseover="this.src='img/mockup2_hover.png'" onmouseout="this.src='img/mockup2.png'" ontouchstart="this.src='img/mockup2_hover_mob.png'" ontouchend="this.src='img/mockup2.png'"/>
-                    </a>
-                </article>
+        </div>
+        <div class="projects">
+            <article class="mockup mockup1">
+                <a href="proyecto1.html">
+                    <div class="overlayWrapper" id="proyecto1">
+                        <img class="gaintime" src="img/mockup.png" ontouchstart="showOverlay('proyecto1')" ontouchend="hideOverlay('proyecto1')"/>
+                        <div class="overlay">
+                            <span class="overlay-title">titol</span>
+                            <span class="overlay-subtitle">subtitol</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            <article class="mockup mockup2">
+                <a href="proyecto2.html">
+                    <div class="overlayWrapper" id="proyecto2">
+                        <img class="capstone" src="img/mockup2.png" ontouchstart="showOverlay('proyecto2')" ontouchend="hideOverlay('proyecto2')"/>
+                        <div class="overlay">
+                            <span class="overlay-title">titol</span>
+                            <span class="overlay-subtitle">subtitol</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="end">
+            <div class="finaltext">
+                <p>© 2019 Silvia Roig Cela</p>
             </div>
-        </main>
-
-        <footer>
-            <div class="end">
-                <div class="finaltext">
-                    <p>© 2019 Silvia Roig Cela</p>
-                </div>
-            </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
 </html>

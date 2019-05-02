@@ -52,6 +52,39 @@
     display: flex;
 }
 
+.projects .overlayWrapper {
+    position: relative;
+}
+
+.overlayWrapper .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255, 0.2);
+    
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #000;
+}
+
+.overlayWrapper:hover .overlay, .overlayWrapper.active .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay-title {
+    margin-bottom: 20px;
+}
+
 .mockup {
     min-width: 300px;
     flex: 33.33%;
