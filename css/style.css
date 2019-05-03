@@ -62,7 +62,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255,247,222, 0.6);
+    background: rgba(251,246,233, 0.6);
     
     transition: 0.5s;
     visibility: hidden;
@@ -82,7 +82,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(216,230,255, 0.6);
+    background: rgba(238,244,254, 0.6);
     
     transition: 0.5s;
     visibility: hidden;
@@ -105,7 +105,7 @@
 .overlay-title {
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
 }
 
@@ -123,9 +123,11 @@
 
 .mockup1 {
     padding-left: 40px;
+    padding-right: 5px;
 }
 
 .mockup2 {
+    padding-left: 5px;
     padding-right: 40px;
 }
 
