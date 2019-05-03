@@ -123,11 +123,11 @@
 
 .mockup1 {
     padding-left: 40px;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .mockup2 {
-    padding-left: 5px;
+    padding-left: 10px;
     padding-right: 40px;
 }
 
@@ -353,7 +353,7 @@ img {
     }
     
     .mockup2 {
-        padding: 0 20px 10px 20px;
+        padding: 10px 20px;
     }
 
     .end {
