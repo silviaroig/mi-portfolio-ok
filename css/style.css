@@ -194,6 +194,29 @@ img {
     padding-right: 30%;
 }
 
+.cv {
+    /* padding-top: 20px; */
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.descargarcv {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.descargarcv:hover {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .contact {
     color: #414141;
     font-family: 'Poppins', sans-serif;
@@ -402,6 +425,14 @@ img {
     .contact {
         font-size: 18px;
         padding-right: 0;
+    }
+
+    .cv {
+        font-size: 18px;
+    }
+
+    .descargarcv {
+        font-size: 18px;
     }
     
     .presentation {
