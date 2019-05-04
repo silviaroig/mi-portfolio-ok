@@ -420,6 +420,7 @@ img {
     .subtitle {
         padding: 0 20px 10px 20px;
         font-size: 20px;
+        line-height: 1.6;
     }
 
     .userpersona {
@@ -436,7 +437,7 @@ img {
 
     .gaintimetext {
         font-size: 18px;
-        line-height: 
+        line-height: 1.6;
     }
 
 }
