@@ -8,7 +8,7 @@
 .com {
     color: #414141;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -26,17 +26,17 @@
 }
 
 .item1 {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .welcome {
-    padding: 40px;
+    padding: 230px 40px;
 }
 
 .welcometext {
     color: #414141;
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 400;
     display: flex;
     justify-content: flex-start;
@@ -157,7 +157,7 @@ img {
 }
 
 .end {
-    padding: 70px 40px 10px 40px;
+    padding: 120px 40px 10px 40px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -173,7 +173,7 @@ img {
 
 .sobremi {
     display: flex;
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 .bio {
