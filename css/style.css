@@ -50,6 +50,12 @@
     align-items: center;
     flex-direction: column;
     font-size: 12px;
+    opacity: 1;
+    transition: opacity 350ms ease;
+}
+
+#scroll-container.hidden {
+    opacity: 0;
 }
 
 #scroll-container p {

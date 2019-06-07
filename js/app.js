@@ -6,5 +6,16 @@ function hideOverlay(wrapperId) {
 }
 
 window.onload = function() {
-    console.log('test');
+    var scrollContainer = document.getElementById('scroll-container');
+
+    document.addEventListener('scroll', function() {
+        var offsetHeight = window.scrollY;
+
+        if (offsetHeight > 12) {
+            scrollContainer.classList.add('hidden');
+        }
+        else {
+            scrollContainer.classList.remove('hidden');
+        }
+    });
 }
