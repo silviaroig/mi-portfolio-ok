@@ -6,5 +6,5 @@ function hideOverlay(wrapperId) {
 }
 
 window.onload = function() {
-    
+    console.log('test');
 }
