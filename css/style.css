@@ -68,6 +68,24 @@
     background-color: black;
 }
 
+.sidebar-menu {
+    position: fixed;
+    left: 5%;
+    top: 15%;
+    font-size: 1.2rem;
+    opacity: 1;
+    transition: opacity 350ms ease;
+}
+
+.sidebar-menu a {
+    display: block;
+    color: black;
+}
+
+.sidebar-menu.hidden {
+    opacity: 0;
+}
+
 .projects {
     display: flex;
 }
