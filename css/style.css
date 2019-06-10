@@ -39,7 +39,7 @@
 .welcometext {
     color: #414141;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 400;
     display: flex;
     justify-content: flex-start;
@@ -213,10 +213,10 @@ img {
 }
 
 .biotext {
-    color: #4D4D4D;
+    color: #414141;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
     padding-right: 30%;
 }
