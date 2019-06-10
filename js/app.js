@@ -7,7 +7,7 @@ function hideOverlay(wrapperId) {
 
 $(document).ready(function() {
 
-    //Show / hide scoll information container
+    //Show / hide srcoll information container
     var scrollContainer = document.getElementById('scroll-container');
 
     if (scrollContainer) {

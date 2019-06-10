@@ -18,6 +18,9 @@
 
 .menu {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .item {
@@ -68,24 +71,6 @@
     background-color: black;
 }
 
-.sidebar-menu {
-    position: fixed;
-    left: 5%;
-    top: 15%;
-    font-size: 1.2rem;
-    opacity: 1;
-    transition: opacity 200ms ease;
-}
-
-.sidebar-menu a {
-    display: block;
-    color: black;
-}
-
-.sidebar-menu.hidden {
-    opacity: 0;
-}
-
 .projects {
     display: flex;
 }
@@ -120,7 +105,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(238,244,254, 0.7);
+    background: rgba(223,236,235, 0.7);
     
     transition: 0.5s;
     visibility: hidden;
@@ -295,6 +280,24 @@ img {
 
 .myemail:hover {
     color: #18c2fe;
+}
+
+.sidebar-menu {
+    position: fixed;
+    left: 5%;
+    top: 15%;
+    font-size: 1.2rem;
+    opacity: 1;
+    transition: opacity 200ms ease;
+}
+
+.sidebar-menu a {
+    display: block;
+    color: black;
+}
+
+.sidebar-menu.hidden {
+    opacity: 0;
 }
 
 .presentation {
