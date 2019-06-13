@@ -216,7 +216,7 @@ img {
     color: #414141;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
-    font-weight: 200;
+    font-weight: 300;
     text-align: left;
     padding-right: 30%;
 }
@@ -226,14 +226,14 @@ img {
     color: #414141;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .saber-mas {
     margin-bottom: 0
 }
 
-.descargarcv {
+.descargar {
     color: #414141;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
@@ -241,7 +241,7 @@ img {
     text-decoration: underline;
 }
 
-.descargarcv:hover {
+.descargar:hover {
     color: #414141;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
@@ -252,7 +252,7 @@ img {
     color: #414141;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
 }
 
@@ -330,14 +330,6 @@ img {
     line-height: 1.8;
 }
 
-.userpersona {
-    padding: 40px 25%;
-}
-
-.userjourney {
-    padding: 20px 25% 40px 25%;
-}
-
 .gaintimecasestudy {
     padding: 0 25%;
 }
@@ -348,6 +340,22 @@ img {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.8;
+}
+
+.entrevistas {
+    padding-left: 25px;
+}
+
+.enumeracion {
+    padding-left: 25px;
+}
+
+.separador {
+    height: 30px;
+}
+
+.fotogain {
+    padding: 20px 0; 
 }
 
 .capstonecasestudy {
@@ -479,7 +487,7 @@ img {
         font-size: 18px;
     }
 
-    .descargarcv {
+    .descargar {
         font-size: 18px;
     }
     
@@ -496,14 +504,6 @@ img {
         padding: 0 20px 15px 20px;
         font-size: 20px;
         line-height: 1.7;
-    }
-
-    .userpersona {
-        padding: 20px;
-    }
-    
-    .userjourney {
-        padding: 20px;
     }
 
     .gaintimecasestudy {
